@@ -1121,7 +1121,7 @@ typedef NS_ENUM(NSUInteger, FSCalendarOrientation) {
         if (!shouldSelect) {
             return;
         }
-        [self scrollToPageForDate:targetDate animated:YES];
+        [self scrollToPageForDate:targetDate animated:NO];
     }
 }
 
